@@ -17,11 +17,11 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-
-  return load_library(file_path)["get_meaning"][emoticon]
-
+  if load_library(file_path)["get_emoticon"][emoticon]
+    return "Sorry, that emoticon was not found"
+  else
+    return load_library(file_path)["get_emoticon"][emoticon]
 end
-
-# def get_english_meaning(file_path, emoticon)
-#     return load_library(file_path)["get_meaning"]
+# def get_english_meaning
+#   # code goes here
 # end
