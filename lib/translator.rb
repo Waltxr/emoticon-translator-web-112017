@@ -27,5 +27,5 @@ end
 
 def get_english_meaning
   data_hash = load_library(file_path)
-  return data_hash
+  puts data_hash
 end
