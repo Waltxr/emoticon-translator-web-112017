@@ -27,7 +27,7 @@ end
 
 def get_english_meaning(file_path, emoticon)
   data_hash = load_library(file_path)
-  if data_hash["get_meaning"][emoticon]
+  if data_hash["get_english_meaning"][emoticon]
     return data_hash[get_english_meaning][emoticon]
   else
     return "Sorry, that emoticon was not found"
