@@ -13,7 +13,7 @@ def load_library(file_path)
     emoticons["get_emoticon"][emoticon[0]]=emoticon[1]
   end
 
-  return emoticons
+  return emoticons(file_path, emoticon)
 end
 
 def get_japanese_emoticon
