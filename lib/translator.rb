@@ -6,7 +6,7 @@ def load_library(file_path)
   emoticons = {
     :get_meaning => {
 
-    }
+    },
 
     :get_emoticon => {
 
