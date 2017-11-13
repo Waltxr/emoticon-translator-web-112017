@@ -17,10 +17,10 @@ def load_library(file_path)
 end
 
 def get_japanese_emoticon(file_path, emoticon)
-  puts load_library(file_path)["get_emoticon"]
-  
+  return load_library(file_path)["get_emoticon"]
+
 end
 
-def get_english_meaning
-  # code goes here
-end
+# def get_english_meaning
+#   # code goes here
+# end
