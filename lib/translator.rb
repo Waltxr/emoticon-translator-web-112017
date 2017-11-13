@@ -1,9 +1,20 @@
 require 'yaml'
 
 def load_library(file_path)
-  emoticons = YAML.load_file(file_path)
+  emoticons_data = YAML.load_file(file_path)
 
-  return emoticons
+  emoticons = {
+    :get_meaning => {
+       
+    }
+
+    :get_emoticon => {
+      
+    }
+  }
+
+  emoticons_data.each do |meaning, emoticon|
+  
 end
 
 def get_japanese_emoticon
